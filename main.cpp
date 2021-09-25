@@ -3,11 +3,11 @@
 using namespace std;
 int main()
 {
-    cout<<endl;
+    printf("\n");
     print_hello();
-    cout << endl;
-    cout << "The factorial of 11 is " << factorial(11) << endl;
+    printf("\n");
+    printf("The factorial of 11 is %d\n", factorial(11));
     int x = 56;
     int y = 92;
-    cout << "The gcd of " << x << " " << y << " is " << gcd(x, y) << endl;
+    printf("The gcd of %d and %d is %d", x, y, gcd(x,y);
 }

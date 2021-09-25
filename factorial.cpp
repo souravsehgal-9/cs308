@@ -6,8 +6,8 @@ int factorial(int n)
 {
     if (n < 0)
     {
-        cout<<"Invalid Input"<<endl;
-        return -1;
+        cout<<"Invalid Input. Please enter positive integers only\n"<<endl;
+        return INT_MIN;
     }
     if (n != 1)
     {
